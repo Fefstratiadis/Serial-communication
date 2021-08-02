@@ -1,0 +1,10 @@
+`REG1`: Read the 1st register's value -> Response: `<int>`
+`REG1=?`: Read the list of all allowed values for 1st register (allows 2byte integers) -> Response: `0-16535`
+`REG1=<int>`: Write the provided integer to the 1st register -> Response: `OK|InvalidInput`
+`REG2`: Read the 2nd register's value -> Response: `<int>`
+`REG2=?`: Read the list of all allowed values for 2nd -> Response: `1|2|3`
+`REG2=<int>`: Write the provided integer to the 2nd register -> Response: `OK|InvalidInput`
+'ADD':1)One prompt for user to give integer:Write the integer to the next available register 
+      2)One prompt for user to give list of allowed values:Give the list of allowed values. 
+If the user wants to change the value of the REG the input will not be checked by the list.The values of the new registers are at the users mercy.(Basic checking is only done by the server,it validates if the input is an integer).
+Press "exit" to terminate the application.
