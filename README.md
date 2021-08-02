@@ -1,7 +1,5 @@
 # Serial Port Communication
 
-Expected duration: **1-2 days**
-
 ## Overview
 
 Create a system with an **AT-Command based server** and a **cli-enabled client** that communicates with it via a serial port.
@@ -73,13 +71,3 @@ OK
 1|2|3
 
 ```
-
-#### Deliverables
-
-1. Git repository (Gitlab, Github, feel free to choose) (if you make it private don't forget invite us).
-2. Server Application
-3. Client Application
-4. Guide for editing the list of registers, compiling and running the applications
-5. Provide CMake based toolchain for both applications
-
-***You can share any code you like between the two applications using common library architecture (common.(c|h))***
