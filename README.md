@@ -16,9 +16,6 @@ Create a system with an **AT-Command based server** and a **cli-enabled client**
 
 The desired solution should consist of two different apps, one for the server and one for the client, that communicate via a serial port connection. The server waits for commands and sends back the appropriate responses.
 
-![arch](./serial-port-comm-arch.png)
-
-
 
 #### Serial Communication
 The serial port should be emulated using a virtual serial port (pts). You can use `socat` or any other tool that you are familiar with, but the final solution should read/write to tty-like files. 
